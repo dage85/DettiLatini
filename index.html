@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detti Latini</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Detti Latini</h1>
+        <div id="quote-container">
+            <p id="latin-quote"></p>
+            <p id="italian-translation"></p>
+        </div>
+        <button id="config-button">Config</button>
+        <div id="config-panel" style="display: none;">
+            <label for="api-key">API Key:</label>
+            <input type="text" id="api-key" name="api-key">
+        </div>
+        <button id="new-quote-button">New Quote</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

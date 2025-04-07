@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#quote-container {
+    margin-bottom: 20px;
+}
+
+#latin-quote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#italian-translation {
+    font-size: 1em;
+    color: #555;
+}
+
+#new-quote-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-quote-button:hover {
+    background-color: #0056b3;
+#config-button {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#config-button:hover {
+    background-color: #5a6268;
+}
+
+#config-panel {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#config-panel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#config-panel input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+}
