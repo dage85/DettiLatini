@@ -6,15 +6,16 @@
     <title>Detti Latini</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg">
 </head>
 <body>
     <div class="container">
+        <button id="config-button" class="gear-button">⚙</button>
         <h1>Detti Latini</h1>
         <div id="quote-container">
             <p id="latin-quote"></p>
             <p id="italian-translation"></p>
         </div>
-        <button id="config-button">Config</button>
         <div id="config-panel" style="display: none;">
             <label for="api-key">API Key:</label>
             <input type="text" id="api-key" name="api-key">

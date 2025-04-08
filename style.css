@@ -41,18 +41,20 @@ body {
 
 #new-quote-button:hover {
     background-color: #0056b3;
-#config-button {
-    background-color: #6c757d;
-    color: #fff;
+.gear-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #6c757d;
     border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
+    font-size: 1.5em;
     cursor: pointer;
-    margin-top: 10px;
+    padding: 5px;
 }
 
-#config-button:hover {
-    background-color: #5a6268;
+.gear-button:hover {
+    color: #5a6268;
 }
 
 #config-panel {
