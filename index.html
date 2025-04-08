@@ -1,14 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <script type="module" crossorigin src="/assets/index-CFyqdpBa.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bmjoj97I.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detti Latini</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Detti Latini</h1>
+        <div id="quote-container">
+            <p id="latin-quote"></p>
+            <p id="italian-translation"></p>
+        </div>
+        <button id="config-button">Config</button>
+        <div id="config-panel" style="display: none;">
+            <label for="api-key">API Key:</label>
+            <input type="text" id="api-key" name="api-key">
+        </div>
+        <button id="new-quote-button">New Quote</button>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
